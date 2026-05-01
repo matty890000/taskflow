@@ -79,7 +79,11 @@
     font-weight: 400;
   }
 
-     .input-one[type="text"] {
+     .input-one[type="email"] {
+    font-size: 10px;
+    
+  }
+    .input-one[type="password"] {
     font-size: 10px;
     
   }
@@ -159,7 +163,7 @@
 
    .terms span{
     width: 238px;
-    color: #0a0a0a;
+    color: #1E1E1E;
     font-size: 10px;
     text-align: center;
 

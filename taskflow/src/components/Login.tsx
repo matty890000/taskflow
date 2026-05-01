@@ -24,13 +24,13 @@ const Login = () => {
         <div className="form-login flex flex-col gap-5">
           <div className="relative first-input flex flex-col gap-2">
             <h4 className='text-[10px]'>Email</h4>
-            <input type="text" className='input-one' placeholder="ex.: matiasfrancisco@gmail.com"/>
+            <input type="email" className='input-one' placeholder="ex.: matiasfrancisco@gmail.com"/>
             <img src={Mail} alt="icon-mail" className='img-icon absolute top-9 left-66'/>
 
           </div>
            <div className="relative first-input flex flex-col gap-2">
             <h4 className='text-[10px]'>Palavra-passe</h4>
-            <input type="text" className='input-one' placeholder="Digite a sua palavra-passe"/>
+            <input type="password" className='input-one' placeholder="Digite a sua palavra-passe"/>
             <img src={SecurityCheck} alt="icon-mail" className='img-icon absolute top-9 left-66'/>
             <div className='flex items-end justify-end'>
             <h4 className='text-[10px]'>Esqueceu a palavra-passe?</h4>
@@ -40,7 +40,7 @@ const Login = () => {
           <div className="cta-login">Entrar</div>
 
           <div className="mt-3 line relative flex justify-center items-center">
-            <h4 className='text-[10px] font-medium absolute -top-1.75px px-3 bg-white'>Ou entrar com</h4>
+            <h4 className='text-[10px] text-[#1E1E1E] font-medium absolute -top-1.75px px-3 bg-white'>Ou entrar com</h4>
           </div>
 
           <div className="social-login flex gap-[6px] mt-[5px]">
